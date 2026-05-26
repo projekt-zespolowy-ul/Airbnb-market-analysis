@@ -1,24 +1,33 @@
 # Airbnb-market-analysis
-Analiza rentowności rynku wynajmu krótkoterminowego (Airbnb)
-## Opis projektu
-Celem projektu jest analiza rynku wynajmu krótkoterminowego przy użyciu metodologii CRISP-DM. Analiza obejmuje czyszczenie danych, badanie zależności rynkowych oraz budowę modelu predykcyjnego służącego do szacowania obłożenia mieszkań (occupancy_rate) w oparciu o ich cechy charakterystyczne.
+Analysis of the Short-Term Rental Market (Airbnb) Profitability
+## Project Description
+The project aims to analyze the short-term rental market using the CRISP-DM methodology. The analysis includes data cleaning, examining market relationships, and building a predictive model for estimating unit occupancy rates based on their characteristics.
 
-## Kluczowe etapy
-  * Przygotowanie danych: Czyszczenie i integracja danych z różnych źródeł (listings, kalendarze, ceny nieruchomości) za pomocą języka Python.
+## Key Stages
+* Data Preparation: Cleansing and integrating data from various sources (listings, calendars, property prices) using Python.
 
-  * Eksploracja i Wizualizacja: Stworzenie dashboardu w Power BI integrującego dane z wielu miast w celu identyfikacji kluczowych czynników wpływających na rentowność.
+* Exploration and Visualization: Creating a Power BI dashboard integrating data from multiple cities to identify key factors influencing profitability.
 
-  * Modelowanie: Przygotowanie modelu regresyjnego pozwalającego przewidzieć obłożenie jednostki na podstawie jej atrybutów (amenities, lokalizacja, cena).
+* Modeling: Creating a regression model to predict unit occupancy rates based on unit attributes (amenities, location, price).
 
-## Technologie
-* Język: Python (Pandas, Scikit-learn, Seaborn, Matplotlib, SHAP)
+## Technologies
+* Language: Python (Pandas, Scikit-learn, Seaborn, Matplotlib, SHAP)
 
-* BI: Power BI (modelowanie danych, Dashboard)
+* BI: Power BI (data modeling, Dashboard)
 
-* Metodologia: CRISP-DM
+* Methodology: CRISP-DM
 
-## Wnioski
+## Exploration and visualization
 
-1. Największy wpływ na obłożenie mają: 
+### 1. Profitability and Business Indicators Analysis
+![Profitability Analysis](<img width="681" height="415" alt="{630C6EAF-4319-4B7C-8E2E-EB23245FBA9C}" src="https://github.com/user-attachments/assets/552da05d-409b-4498-94ca-5e4836e73855" />)
+The above panel allows for an in-depth analysis of investment profitability. Key elements include:
+* A summary of the **Rental Yield%** (rate of return) and **Occupancy Rate** (occupancy rate) indicators, broken down by district and city.
+* A bubble chart illustrating the relationship between the total property value and the estimated rental income in each area.
+* Long-term availability analysis.
 
-2. Model predykcyjny osiąga skuteczność na poziomie 
+## Conclusions
+
+1. The greatest impact on utilization is due to:
+
+2. The predictive model achieves an efficiency level of
