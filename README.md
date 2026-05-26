@@ -19,13 +19,12 @@ The project aims to analyze the short-term rental market using the CRISP-DM meth
 
 ## Exploration and visualization
 
-### 1. Profitability and Business Indicators Analysis
-![Profitability Analysis](visualizations/profitability_analysis.png)
-The above panel allows for an in-depth analysis of investment profitability.
-* A summary of the **Rental Yield%** (rate of return) and **Occupancy Rate** (occupancy rate) indicators, broken down by district and city.
-![Profitability Analysis 2](visualizations/profitability_analysis_2.png)
-* A bubble chart illustrating the relationship between the total property value and the estimated rental income in each area.
-* Long-term availability analysis.
+### 1. Profitability and Business Indicators Analysis, A summary of the **Rental Yield%** and **Occupancy Rate** indicators, broken down by district and city.
+![Profitability Analysis 2](visualizations/profitability_2.png)
+
+### 2. Relationship between the total property value and the estimated rental income in each area. Bubble size represents rate of return. 
+![Profitability Analysis](visualizations/profitability.png)
+
 
 ## Conclusions
 
